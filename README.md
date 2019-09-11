@@ -1,3 +1,5 @@
+[![CircleCI](https://circleci.com/gh/diegopmoreira/pokedex-ui-automation.svg?style=svg)](https://circleci.com/gh/diegopmoreira/pokedex-ui-automation)
+
 # Pokemon UI Functional Testing with TestCafe
 
 ## Want to use this project?
