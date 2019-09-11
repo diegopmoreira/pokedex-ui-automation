@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node node_modules/testcafe/bin/testcafe.js firefox specs/test"
+    "test": "node node_modules/testcafe/bin/testcafe.js firefox specs/test.js"
   },
   "author": "Diego Moreira",
   "license": "ISC",
