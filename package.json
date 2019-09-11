@@ -4,11 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node node_modules/testcafe/bin/testcafe.js firefox specs/test.js"
+    "test": "testcafe chrome:headless specs/test.js -r xunit:/tmp/test-results/res.xml"
   },
   "author": "Diego Moreira",
   "license": "ISC",
-  "dependencies": {
-    "testcafe": "^1.4.3"
+  "devDependencies": {
+    "testcafe": "*",
+    "testcafe-reporter-xunit": "*"
   }
 }
