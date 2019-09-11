@@ -1,0 +1,14 @@
+{
+  "name": "pokedex-ui-automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node node_modules/testcafe/bin/testcafe.js chrome specs/test"
+  },
+  "author": "Diego Moreira",
+  "license": "ISC",
+  "dependencies": {
+    "testcafe": "^1.4.3"
+  }
+}
